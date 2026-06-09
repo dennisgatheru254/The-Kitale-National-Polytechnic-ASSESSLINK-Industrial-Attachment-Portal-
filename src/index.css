@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7B1C2E;
+  --color-primary-hover: #6A1727;
+  --color-primary-light: #F5E8EB;
+  --color-bg-page: #F7F8FA;
+  --color-card: #FFFFFF;
+  --color-border-card: #E8E8E8;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #6B7280;
+  
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-bg-page);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ================= Dark Theme Overrides ================= */
+
+/* Dark Mode Core Variables */
+:root {
+  --color-primary-light-dynamic: #F5E8EB;
+}
+
+html.dark {
+  --color-primary: #FF5A79;
+  --color-primary-hover: #FF7B94;
+  --color-primary-light: #3D050F;
+  --color-bg-page: #000000;
+  --color-card: #08080A;
+  --color-border-card: #1C1C1E;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #A1A1AA;
+  
+  --color-primary-light-dynamic: #3D050F;
+  color-scheme: dark;
+}
+
+/* Base Body Override */
+html.dark body {
+  background-color: var(--color-bg-page) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Global Container Overrides for Dark Mode */
+html.dark .min-h-screen,
+html.dark .min-h-screen.bg-\[\#F7F8FA\] {
+  background-color: var(--color-bg-page) !important;
+}
+
+html.dark .bg-white {
+  background-color: var(--color-card) !important;
+}
+
+html.dark .bg-gray-50,
+html.dark .bg-slate-50 {
+  background-color: #0c0c0e !important;
+}
+
+html.dark .bg-gray-100,
+html.dark .bg-slate-100 {
+  background-color: #161619 !important;
+}
+
+html.dark .bg-gray-200,
+html.dark .bg-slate-200 {
+  background-color: #222226 !important;
+}
+
+html.dark .hover\:bg-gray-50:hover,
+html.dark .hover\:bg-slate-50:hover {
+  background-color: #161619 !important;
+}
+
+html.dark .hover\:bg-gray-100:hover,
+html.dark .hover\:bg-slate-100:hover {
+  background-color: #222226 !important;
+}
+
+/* Borders */
+html.dark .border-gray-100,
+html.dark .border-gray-200,
+html.dark .border-gray-300,
+html.dark .border-slate-100,
+html.dark .border-slate-200,
+html.dark .border-slate-300,
+html.dark .border-gray-150,
+html.dark .border-\[\#E8E8E8\] {
+  border-color: var(--color-border-card) !important;
+}
+
+html.dark .divide-y > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--color-border-card) !important;
+}
+
+/* Text Colors */
+html.dark .text-gray-950,
+html.dark .text-gray-900,
+html.dark .text-gray-800,
+html.dark .text-slate-900,
+html.dark .text-slate-800,
+html.dark .text-slate-950 {
+  color: var(--color-text-primary) !important;
+}
+
+html.dark .text-gray-700,
+html.dark .text-gray-600,
+html.dark .text-slate-700,
+html.dark .text-slate-600 {
+  color: #E2E8F0 !important;
+}
+
+html.dark .text-gray-500,
+html.dark .text-gray-400,
+html.dark .text-slate-500,
+html.dark .text-slate-400 {
+  color: var(--color-text-secondary) !important;
+}
+
+html.dark .text-[#7B1C2E] {
+  color: var(--color-primary) !important;
+}
+
+/* Form Inputs and Controls */
+html.dark input,
+html.dark textarea,
+html.dark select {
+  background-color: #030303 !important;
+  color: #FFFFFF !important;
+  border-color: #1C1C1E !important;
+}
+
+html.dark input:focus,
+html.dark textarea:focus,
+html.dark select:focus {
+  border-color: var(--color-primary) !important;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(222, 81, 110, 0.2);
+}
+
+/* Map adjustments: always stay in white/light mode (no dark overrides) */
+html.dark .leaflet-container {
+  background-color: #F7F8FA !important;
+}
+html.dark .leaflet-tile-container img {
+  filter: none !important;
+}
+html.dark .leaflet-control-zoom-in,
+html.dark .leaflet-control-zoom-out,
+html.dark .leaflet-bar,
+html.dark .leaflet-popup-content-wrapper,
+html.dark .leaflet-popup-tip {
+  background-color: #FFFFFF !important;
+  color: #1A1A1A !important;
+  border-color: #E8E8E8 !important;
+}
+
+html.dark .leaflet-popup-content-wrapper .text-slate-800,
+html.dark .leaflet-popup-content-wrapper .text-slate-700,
+html.dark .leaflet-popup-content-wrapper .text-slate-900 {
+  color: #1A1A1A !important;
+}
+
+html.dark .leaflet-popup-content-wrapper h5 {
+  color: #7B1C2E !important;
+}
+
+/* Force all text/bg/border classes inside Leaflet container & popups to stay light-themed even under html.dark */
+html.dark .leaflet-container,
+html.dark .knpss-custom-popup {
+  --color-primary: #7B1C2E;
+  --color-primary-hover: #6A1727;
+  --color-primary-light: #F5E8EB;
+  --color-bg-page: #F7F8FA;
+  --color-card: #FFFFFF;
+  --color-border-card: #E8E8E8;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #6B7280;
+  color-scheme: light !important;
+}
+
+/* Specific class resets inside map and map popups to ignore dark mode styles */
+html.dark .leaflet-container .bg-white,
+html.dark .knpss-custom-popup .bg-white {
+  background-color: #FFFFFF !important;
+}
+
+html.dark .leaflet-container .bg-gray-50,
+html.dark .leaflet-container .bg-slate-50,
+html.dark .knpss-custom-popup .bg-slate-50 {
+  background-color: #F8FAFC !important;
+}
+
+html.dark .leaflet-container .bg-slate-50\/50,
+html.dark .knpss-custom-popup .bg-slate-50\/50,
+html.dark .leaflet-container .bg-slate-100,
+html.dark .knpss-custom-popup .bg-slate-100,
+html.dark .leaflet-container .bg-slate-100/50,
+html.dark .knpss-custom-popup .bg-slate-100/50 {
+  background-color: #F1F5F9 !important;
+}
+
+/* Borders */
+html.dark .leaflet-container .border-gray-100,
+html.dark .leaflet-container .border-slate-100,
+html.dark .knpss-custom-popup .border-gray-100,
+html.dark .knpss-custom-popup .border-slate-100 {
+  border-color: #F1F5F9 !important;
+}
+
+html.dark .leaflet-container .border-slate-150,
+html.dark .knpss-custom-popup .border-slate-150 {
+  border-color: #E2E8F0 !important;
+}
+
+html.dark .leaflet-container .border-dashed,
+html.dark .knpss-custom-popup .border-dashed {
+  border-style: dashed !important;
+}
+
+/* Text Colors */
+html.dark .leaflet-container .text-gray-950,
+html.dark .leaflet-container .text-gray-900,
+html.dark .leaflet-container .text-gray-800,
+html.dark .leaflet-container .text-slate-950,
+html.dark .leaflet-container .text-slate-900,
+html.dark .leaflet-container .text-slate-800,
+html.dark .knpss-custom-popup .text-gray-950,
+html.dark .knpss-custom-popup .text-gray-900,
+html.dark .knpss-custom-popup .text-gray-800,
+html.dark .knpss-custom-popup .text-slate-950,
+html.dark .knpss-custom-popup .text-slate-900,
+html.dark .knpss-custom-popup .text-slate-800 {
+  color: #1E293B !important;
+}
+
+html.dark .leaflet-container .text-gray-750,
+html.dark .leaflet-container .text-gray-700,
+html.dark .leaflet-container .text-gray-650,
+html.dark .leaflet-container .text-gray-600,
+html.dark .leaflet-container .text-slate-700,
+html.dark .leaflet-container .text-slate-650,
+html.dark .leaflet-container .text-slate-600,
+html.dark .knpss-custom-popup .text-gray-750,
+html.dark .knpss-custom-popup .text-gray-700,
+html.dark .knpss-custom-popup .text-gray-650,
+html.dark .knpss-custom-popup .text-gray-600,
+html.dark .knpss-custom-popup .text-slate-700,
+html.dark .knpss-custom-popup .text-slate-650,
+html.dark .knpss-custom-popup .text-slate-600 {
+  color: #475569 !important;
+}
+
+html.dark .leaflet-container .text-gray-500,
+html.dark .leaflet-container .text-gray-400,
+html.dark .leaflet-container .text-slate-500,
+html.dark .leaflet-container .text-slate-400,
+html.dark .knpss-custom-popup .text-gray-500,
+html.dark .knpss-custom-popup .text-gray-400,
+html.dark .knpss-custom-popup .text-slate-500,
+html.dark .knpss-custom-popup .text-slate-400 {
+  color: #64748B !important;
+}
+
+html.dark .leaflet-container .text-[#6D071A],
+html.dark .knpss-custom-popup .text-[#6D071A] {
+  color: #6D071A !important;
+}
+
+html.dark .leaflet-container .bg-[#6D071A],
+html.dark .knpss-custom-popup .bg-[#6D071A] {
+  background-color: #6D071A !important;
+}
+
+html.dark .leaflet-container .hover\:bg-\[\#5C0515\]:hover,
+html.dark .knpss-custom-popup .bg-\[\#5C0515\]:hover {
+  background-color: #5C0515 !important;
+}
+
+/* Badges / Accents / Toast Alerts */
+html.dark .bg-\[\#F5E8EB\],
+html.dark .bg-red-50,
+html.dark .bg-[#F5E8EB]\/30 {
+  background-color: var(--color-primary-light-dynamic) !important;
+  color: #FF8F9F !important;
+}
+
+html.dark .text-\[\#7B1C2E\],
+html.dark .text-[#7B1C2E] {
+  color: var(--color-primary) !important;
+}
+
+html.dark .border-\[\#7B1C2E\]\/20 {
+  border-color: rgba(222, 81, 110, 0.2) !important;
+}
+
+/* SVG Logo replacements for KnpLogo path colors */
+html.dark svg text[fill="#7B1C2E"],
+html.dark svg path[fill="#7B1C2E"] {
+  fill: var(--color-primary) !important;
+}
+html.dark svg .text-\[\#7B1C2E\] {
+  color: var(--color-primary) !important;
+}
+
+/* Primary Color Solid Badges and buttons */
+html.dark .bg-[#7B1C2E] {
+  background-color: var(--color-primary) !important;
+}
+
+html.dark .hover\:bg-\[\#6A1727\]:hover,
+html.dark .hover\:bg-\[\#7B1C2E\]:hover {
+  background-color: var(--color-primary-hover) !important;
+}
+
+html.dark .text-red-800 {
+  color: #FF8F9F !important;
+}
+html.dark .bg-red-50 {
+  background-color: #2F1116 !important;
+}
+
+html.dark .bg-blue-50 {
+  background-color: #0F2033 !important;
+}
+html.dark .text-blue-800 {
+  color: #93C5FD !important;
+}
+
+html.dark .bg-green-50,
+html.dark .bg-emerald-50 {
+  background-color: #0B2516 !important;
+}
+html.dark .text-green-800,
+html.dark .text-emerald-800 {
+  color: #86EFAC !important;
+}
+
+html.dark .bg-amber-50 {
+  background-color: #2B1E0A !important;
+}
+html.dark .text-amber-700,
+html.dark .text-amber-800,
+html.dark .text-amber-900,
+html.dark .text-amber-950,
+html.dark .text-amber-805,
+html.dark .text-amber-705 {
+  color: #FCD34D !important;
+}
+
+html.dark .text-\[\#2E7D32\],
+html.dark .text-emerald-700,
+html.dark .text-emerald-900,
+html.dark .text-green-700 {
+  color: #4ADE80 !important;
+}
+
+/* ================= Glassmorphic Transparent and Blurry Leaflet Popups ================= */
+.knpss-custom-popup .leaflet-popup-content-wrapper {
+  background: rgba(255, 255, 255, 0.18) !important;
+  backdrop-filter: blur(24px) saturate(160%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(160%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+  box-shadow: 0 12px 40px rgba(109, 7, 26, 0.1), 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 16px !important;
+  transition: all 0.25s ease-in-out;
+}
+
+.knpss-custom-popup .leaflet-popup-tip {
+  background: rgba(255, 255, 255, 0.18) !important;
+  backdrop-filter: blur(24px) saturate(160%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(160%) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Specific sub-element overrides to support the transparent look inside popups */
+.knpss-custom-popup .bg-slate-50 {
+  background-color: rgba(241, 245, 249, 0.12) !important;
+}
+
+.knpss-custom-popup .bg-slate-100 {
+  background-color: rgba(241, 245, 249, 0.18) !important;
+}
+
+.knpss-custom-popup .border-gray-100,
+.knpss-custom-popup .border-slate-100,
+.knpss-custom-popup .border-slate-150 {
+  border-color: rgba(203, 213, 225, 0.25) !important;
+}
+
+/* ================= Map Overlay Panels Keep-Light Text Overrides ================= */
+html.dark .map-overlay-keep-light .text-slate-800,
+html.dark .map-overlay-keep-light .text-gray-800,
+html.dark .map-overlay-keep-light .text-slate-900,
+html.dark .map-overlay-keep-light .text-gray-900,
+html.dark .map-overlay-keep-light .text-slate-950,
+html.dark .map-overlay-keep-light .text-gray-950,
+html.dark .map-overlay-keep-light button.text-slate-800,
+html.dark .map-overlay-keep-light button.text-gray-800,
+html.dark .map-overlay-keep-light select.text-slate-800,
+html.dark .map-overlay-keep-light select.text-gray-800,
+html.dark .map-overlay-keep-light input[type="text"] {
+  color: #1E293B !important;
+}
+
+html.dark .map-overlay-keep-light .text-slate-500,
+html.dark .map-overlay-keep-light .text-gray-500,
+html.dark .map-overlay-keep-light .text-slate-600,
+html.dark .map-overlay-keep-light .text-gray-600,
+html.dark .map-overlay-keep-light .text-slate-700,
+html.dark .map-overlay-keep-light .text-gray-700 {
+  color: #475569 !important;
+}
+
+html.dark .map-overlay-keep-light .hover\:text-white:hover {
+  color: #FFFFFF !important;
+}
+
+
+
