@@ -1,0 +1,846 @@
+{
+  "users": [
+    {
+      "id": "u-trainee-1",
+      "role": "TRAINEE",
+      "fullName": "Joseph Kurian",
+      "email": "trainee@knpss.ac.ke",
+      "phone": "+254712345678",
+      "profilePhotoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "isApprovedForLogin": true,
+      "lastLoginAt": "2026-06-11T08:05:13.128Z",
+      "createdAt": "2026-05-11T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    },
+    {
+      "id": "u-trainee-2",
+      "role": "TRAINEE",
+      "fullName": "Mary Wambui",
+      "email": "mary.wambui@knpss.ac.ke",
+      "phone": "+254722111222",
+      "profilePhotoUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "isApprovedForLogin": true,
+      "createdAt": "2026-05-11T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    },
+    {
+      "id": "u-trainee-3",
+      "role": "TRAINEE",
+      "fullName": "David Kimani",
+      "email": "david.kimani@knpss.ac.ke",
+      "phone": "+254733444555",
+      "profilePhotoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "isApprovedForLogin": true,
+      "createdAt": "2026-05-11T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    },
+    {
+      "id": "u-trainee-4",
+      "role": "TRAINEE",
+      "fullName": "Faith Mutua",
+      "email": "faith.mutua@knpss.ac.ke",
+      "phone": "+254722999000",
+      "profilePhotoUrl": "https://images.unsplash.com/photo-1534751516642-a131fed10495?w=120&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "isApprovedForLogin": true,
+      "createdAt": "2026-05-11T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    },
+    {
+      "id": "u-officer-1",
+      "role": "OFFICER",
+      "fullName": "Mary Wanjiku",
+      "email": "officer@knpss.ac.ke",
+      "phone": "+254799000111",
+      "profilePhotoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "isApprovedForLogin": true,
+      "createdAt": "2026-04-11T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z",
+      "lastLoginAt": "2026-06-11T08:05:24.047Z"
+    },
+    {
+      "id": "u-supervisor-1",
+      "role": "SUPERVISOR",
+      "fullName": "John Mwangi",
+      "email": "supervisor@corporates.com",
+      "phone": "+254711223344",
+      "profilePhotoUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=120&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "isApprovedForLogin": true,
+      "createdAt": "2026-05-01T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z",
+      "lastLoginAt": "2026-06-11T07:38:59.817Z"
+    },
+    {
+      "id": "u-admin-1",
+      "role": "ADMIN",
+      "fullName": "Dr. James Kamau",
+      "email": "admin@knpss.ac.ke",
+      "phone": "+254700999888",
+      "profilePhotoUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "isApprovedForLogin": true,
+      "createdAt": "2026-03-12T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z",
+      "lastLoginAt": "2026-06-11T08:27:16.985Z"
+    },
+    {
+      "id": "u-oxl6cte4k",
+      "role": "TRAINEE",
+      "fullName": "Joseph Njiraini Kuria",
+      "email": "joenjiraini008@gmail.com",
+      "phone": "+254708534202",
+      "profilePhotoUrl": "blob:https://musical-space-tribble-6v9wrqxgpjfxwvx-3000.app.github.dev/7b48e63e-d584-43d7-8159-a0e7197a3ba6",
+      "isActive": true,
+      "isApprovedForLogin": false,
+      "lastLoginAt": "2026-06-11T09:12:52.636Z",
+      "createdAt": "2026-06-11T09:12:52.636Z",
+      "updatedAt": "2026-06-11T09:13:19.534Z"
+    },
+    {
+      "id": "u-5p7gsqwnx",
+      "role": "TRAINEE",
+      "fullName": "Joseph Njiraini Kuria",
+      "email": "joeqush@gmail.com",
+      "passwordHash": "2735e8aa736639410aa7672406fe2f43eab44cfb73e08c7eccc4abaa89cc1ff2",
+      "phone": "+254708534202",
+      "profilePhotoUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "isApprovedForLogin": true,
+      "lastLoginAt": "2026-06-11T09:58:43.488Z",
+      "createdAt": "2026-06-11T09:58:43.488Z",
+      "updatedAt": "2026-06-11T09:58:43.488Z"
+    }
+  ],
+  "traineeProfiles": [
+    {
+      "id": "tp-1",
+      "userId": "u-trainee-1",
+      "admissionNo": "KNPSS/DICT/2022/4102",
+      "courseCode": "DICT",
+      "courseName": "Diploma in Information Communication Technology",
+      "cohort": "2023 Intake",
+      "attachmentDurationWeeks": 12,
+      "eligibilityStatus": "ELIGIBLE",
+      "feePaid": true,
+      "createdAt": "2026-05-12T12:18:18.399Z"
+    },
+    {
+      "id": "tp-2",
+      "userId": "u-trainee-2",
+      "admissionNo": "KNPSS/DEEE/2022/9104",
+      "courseCode": "DEEE",
+      "courseName": "Diploma in Electrical & Electronic Engineering",
+      "cohort": "2023 Intake",
+      "attachmentDurationWeeks": 12,
+      "eligibilityStatus": "PENDING",
+      "feePaid": false,
+      "createdAt": "2026-05-12T12:18:18.399Z"
+    },
+    {
+      "id": "tp-3",
+      "userId": "u-trainee-3",
+      "admissionNo": "KNPSS/DME/2022/1049",
+      "courseCode": "DME",
+      "courseName": "Diploma in Mechanical Engineering",
+      "cohort": "2023 Intake",
+      "attachmentDurationWeeks": 12,
+      "eligibilityStatus": "ELIGIBLE",
+      "feePaid": true,
+      "createdAt": "2026-05-12T12:18:18.399Z"
+    },
+    {
+      "id": "tp-4",
+      "userId": "u-trainee-4",
+      "admissionNo": "KNPSS/DBAT/2022/5021",
+      "courseCode": "DBAT",
+      "courseName": "Diploma in Building & Civil Technology",
+      "cohort": "2023 Intake",
+      "attachmentDurationWeeks": 12,
+      "eligibilityStatus": "ELIGIBLE",
+      "feePaid": true,
+      "createdAt": "2026-05-12T12:18:18.399Z"
+    },
+    {
+      "id": "tp-ojclrajps",
+      "userId": "u-oxl6cte4k",
+      "admissionNo": "KNPSS/ADMIT/2026/7059",
+      "courseCode": "DICT",
+      "courseName": "Diploma in Information Communication Technology",
+      "cohort": "2024 Intake",
+      "attachmentDurationWeeks": 12,
+      "eligibilityStatus": "PENDING",
+      "feePaid": false,
+      "createdAt": "2026-06-11T09:12:52.636Z"
+    },
+    {
+      "id": "tp-7z63vy0nl",
+      "userId": "u-5p7gsqwnx",
+      "admissionNo": "KNPSS/ADMIT/2026/5988",
+      "courseCode": "DICT",
+      "courseName": "Diploma in Information Communication Technology",
+      "cohort": "2024 Intake",
+      "attachmentDurationWeeks": 12,
+      "eligibilityStatus": "PENDING",
+      "feePaid": false,
+      "createdAt": "2026-06-11T09:58:43.488Z"
+    }
+  ],
+  "officerProfiles": [
+    {
+      "id": "op-1",
+      "userId": "u-officer-1",
+      "employeeNo": "KNPSS-ASSESSOR-04",
+      "department": "School of Engineering & Mechanical Arts",
+      "specialization": "On-Site Compliance & Practical Logbook Audit",
+      "assignedRegions": [
+        "Nairobi Area",
+        "Kiambu County"
+      ],
+      "completedAssessmentsCount": 14,
+      "officeRoom": "Liaison Wing B, Room 14",
+      "availabilityStatus": "AVAILABLE",
+      "createdAt": "2026-06-10T12:18:18.399Z"
+    }
+  ],
+  "supervisorProfiles": [
+    {
+      "id": "sp-1",
+      "userId": "u-supervisor-1",
+      "companyName": "Kenya Power and Lighting Company",
+      "jobTitle": "Senior Electrical Engineering Superintendent",
+      "department": "Substations & Distribution Systems",
+      "workEmail": "jmwangi@kplc.co.ke",
+      "workPhone": "+254711223344",
+      "officeLocation": "Stima Plaza, Block C, 4th Floor",
+      "maxTraineesCapacity": 5,
+      "currentAssignedTraineesCount": 1,
+      "createdAt": "2026-06-10T12:18:18.399Z"
+    }
+  ],
+  "adminProfiles": [
+    {
+      "id": "ap-1",
+      "userId": "u-admin-1",
+      "adminStaffCode": "KNPSS-ILO-ADMIN-01",
+      "portfolio": "Director of Industrial Liaison & Placement Services",
+      "permissionsRole": "SYSTEM_ADMIN",
+      "officeExtension": "EXT-8012",
+      "deskLocation": "Administration Block A, Suite 10",
+      "createdAt": "2026-06-10T12:18:18.399Z"
+    }
+  ],
+  "placements": [
+    {
+      "id": "pl-1",
+      "traineeId": "tp-1",
+      "companyName": "Kenya Power and Lighting Company",
+      "companyAddress": "Electricity House, Harambee Avenue, Nairobi",
+      "supervisorId": "u-supervisor-1",
+      "supervisorName": "John Mwangi",
+      "supervisorPhone": "+254711223344",
+      "supervisorEmail": "supervisor@corporates.com",
+      "locationLat": -1.2858,
+      "locationLng": 36.8229,
+      "county": "Nairobi",
+      "startDate": "2026-05-01",
+      "endDate": "2026-07-24",
+      "status": "ACTIVE",
+      "assignedOfficerId": "u-officer-1",
+      "acceptanceLetterUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "iloLetterUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "createdAt": "2026-05-13T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    },
+    {
+      "id": "pl-2",
+      "traineeId": "tp-2",
+      "companyName": "Athee River Cement Works",
+      "companyAddress": "Mombasa Road, Athi River",
+      "supervisorName": "Eng. Robert Nandi",
+      "supervisorPhone": "+254722556677",
+      "supervisorEmail": "nandi@athicement.co.ke",
+      "locationLat": -1.4518,
+      "locationLng": 36.962,
+      "county": "Machakos",
+      "startDate": "2026-06-10",
+      "endDate": "2026-08-30",
+      "status": "PLACED",
+      "assignedOfficerId": "u-officer-1",
+      "createdAt": "2026-06-05T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    },
+    {
+      "id": "pl-3",
+      "traineeId": "tp-3",
+      "companyName": "Kenya Ports Authority",
+      "companyAddress": "Kilindini Harbour, Mombasa",
+      "supervisorName": "Capt. Abdi Juma",
+      "supervisorPhone": "+254733123456",
+      "supervisorEmail": "juma@kpa.co.ke",
+      "locationLat": -4.0435,
+      "locationLng": 39.6682,
+      "county": "Mombasa",
+      "startDate": "2026-05-15",
+      "endDate": "2026-08-15",
+      "status": "ACTIVE",
+      "assignedOfficerId": "u-officer-1",
+      "createdAt": "2026-05-26T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    },
+    {
+      "id": "pl-4",
+      "traineeId": "tp-4",
+      "companyName": "KenGen Kisumu Power Station",
+      "companyAddress": "Kenyagen Sector, Kisumu",
+      "supervisorName": "Sarah Koech",
+      "supervisorPhone": "+254712456789",
+      "supervisorEmail": "koech@kengen.co.ke",
+      "locationLat": -0.0917,
+      "locationLng": 34.768,
+      "county": "Kisumu",
+      "startDate": "2026-03-01",
+      "endDate": "2026-05-24",
+      "status": "COMPLETED",
+      "assignedOfficerId": "u-officer-1",
+      "createdAt": "2026-03-12T12:18:18.399Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    }
+  ],
+  "logbookEntries": [
+    {
+      "id": "le-1",
+      "placementId": "pl-1",
+      "entryDate": "2026-05-04",
+      "weekNumber": 1,
+      "activitiesDescription": "Attended safety induction training. Introduced to the power grid configuration and control center protocols. Reviewed schematic symbols for circuit breakers and transformers.",
+      "skillsAcquired": "Understanding grid system safety guidelines and interpreting high-voltage equipment schematics.",
+      "toolsUsed": "KPLC Grid Safety Manual, Schematic Draw tools",
+      "supervisorName": "John Mwangi",
+      "fileUrls": [
+        "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80"
+      ],
+      "fileHashes": [
+        "d8a43f9a74bf1"
+      ],
+      "status": "APPROVED",
+      "version": 1,
+      "isLate": false,
+      "officerComments": "Excellent summary. Clear understanding of safety principles shown.",
+      "rubricScores": {
+        "Attendance": 5,
+        "Quality of Report": 4,
+        "Technical Skills": 4,
+        "Use of Tools": 4,
+        "Safety Compliance": 5,
+        "Professional Conduct": 5,
+        "Learning Progress": 4
+      },
+      "reviewedAt": "2026-05-21T12:18:18.399Z",
+      "reviewedBy": "u-officer-1",
+      "supervisorAcknowledged": true,
+      "supervisorComment": "Quick learner, followed all safety commands during orientation.",
+      "supervisorAcknowledgedAt": "2026-05-20T12:18:18.399Z",
+      "createdAt": "2026-05-04T17:00:00.000Z",
+      "updatedAt": "2026-05-04T18:30:00.000Z"
+    },
+    {
+      "id": "le-2",
+      "placementId": "pl-1",
+      "entryDate": "2026-05-05",
+      "weekNumber": 1,
+      "activitiesDescription": "Participated in maintenance of an 11KV outdoor transformer terminal. Cleaned insulator bushings, tightened bolted busbar clamps, and verified grease level of isolator levers.",
+      "skillsAcquired": "Insulator bushing sanitization and thermal-lever joint compression techniques.",
+      "toolsUsed": "Insulator cleaner, ratchet wrench, contact resistance meter",
+      "supervisorName": "John Mwangi",
+      "fileUrls": [
+        "https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=600&auto=format&fit=crop&q=80"
+      ],
+      "fileHashes": [
+        "c2b45f9c44ab2"
+      ],
+      "status": "APPROVED",
+      "version": 1,
+      "isLate": false,
+      "officerComments": "Good hand-on experience log. Very specific on tasks.",
+      "rubricScores": {
+        "Attendance": 5,
+        "Quality of Report": 5,
+        "Technical Skills": 4,
+        "Use of Tools": 4,
+        "Safety Compliance": 5,
+        "Professional Conduct": 4,
+        "Learning Progress": 5
+      },
+      "reviewedAt": "2026-05-21T12:18:18.399Z",
+      "reviewedBy": "u-officer-1",
+      "supervisorAcknowledged": true,
+      "supervisorComment": "Successfully assisted team. Highly observant.",
+      "supervisorAcknowledgedAt": "2026-05-21T12:18:18.399Z",
+      "createdAt": "2026-05-05T17:15:00.000Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    },
+    {
+      "id": "le-3",
+      "placementId": "pl-1",
+      "entryDate": "2026-06-01",
+      "weekNumber": 5,
+      "activitiesDescription": "Configured local area network nodes at KPLC offices. Interfaced edge switches, terminated Category 6 solid cables utilizing impact-punch blocks, and certified pin assignment continuity.",
+      "skillsAcquired": "Structured copper cabling, punch-termination, Ethernet diagnostics.",
+      "toolsUsed": "Fluke cable analyzer, impact punch-down tool, modular crimper",
+      "supervisorName": "John Mwangi",
+      "fileUrls": [],
+      "fileHashes": [],
+      "status": "SUBMITTED",
+      "version": 1,
+      "isLate": false,
+      "supervisorAcknowledged": false,
+      "createdAt": "2026-06-01T16:45:00.000Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    },
+    {
+      "id": "le-4",
+      "placementId": "pl-1",
+      "entryDate": "2026-06-02",
+      "weekNumber": 5,
+      "activitiesDescription": "Troubleshooted optical fiber patch panel in the server room. Located a macro-bend in single-mode fiber patch cord using visual fault locator (VFL), replaced cord, and audited light attenuation loss.",
+      "skillsAcquired": "OTDR / VFL trace verification and signal budget auditing.",
+      "toolsUsed": "Visual Fault Locator, Fiber cleaner pen",
+      "supervisorName": "John Mwangi",
+      "fileUrls": [],
+      "fileHashes": [],
+      "status": "CORRECTION_REQUESTED",
+      "version": 1,
+      "isLate": false,
+      "supervisorAcknowledged": false,
+      "officerComments": "Please describe what attenuation reading you achieved after replacing the fiber patch cord so we can assess practical learning.",
+      "createdAt": "2026-06-02T17:10:00.000Z",
+      "updatedAt": "2026-06-10T12:18:18.399Z"
+    }
+  ],
+  "assessments": [],
+  "documents": [
+    {
+      "id": "doc-1",
+      "title": "KNPSS Attachment Insurance Form (All Trainees)",
+      "category": "INSURANCE",
+      "version": "v4.2",
+      "fileUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileHash": "859f7dc2a92e10a24",
+      "visibility": "ALL",
+      "downloadPolicy": "SINGLE",
+      "downloadLimit": 1,
+      "isActive": true,
+      "uploadedBy": "u-admin-1",
+      "createdAt": "2026-05-26T12:18:18.399Z",
+      "validationCode": "SAFE-KNP-2026"
+    },
+    {
+      "id": "doc-2",
+      "title": "NITA Attachment Reimbursement Claim Form",
+      "category": "NITA",
+      "version": "v2.1",
+      "fileUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileHash": "92ba98bc72a1e",
+      "visibility": "ALL",
+      "downloadPolicy": "N_DOWNLOADS",
+      "downloadLimit": 3,
+      "isActive": true,
+      "uploadedBy": "u-admin-1",
+      "createdAt": "2026-05-26T12:18:18.399Z"
+    },
+    {
+      "id": "doc-3",
+      "title": "Industrial Attachment Handbook and Code of Conduct",
+      "category": "POLICY",
+      "version": "v5.0",
+      "fileUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileHash": "a1a2b3c4d5e6",
+      "visibility": "ALL",
+      "downloadPolicy": "UNLIMITED",
+      "isActive": true,
+      "uploadedBy": "u-admin-1",
+      "createdAt": "2026-05-26T12:18:18.399Z"
+    },
+    {
+      "id": "doc-4",
+      "title": "Liaison Office Introduction Letter (Restricted)",
+      "category": "LETTER",
+      "version": "v1.0",
+      "fileUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileHash": "f1e2d3c4b5a6",
+      "visibility": "PROGRAM",
+      "visibilityFilter": "DICT",
+      "downloadPolicy": "VIEW_ONLY",
+      "isActive": true,
+      "uploadedBy": "u-admin-1",
+      "createdAt": "2026-05-26T12:18:18.399Z"
+    }
+  ],
+  "documentEntitlements": [
+    {
+      "id": "ent-1",
+      "documentId": "doc-1",
+      "userId": "u-trainee-1",
+      "downloadsUsed": 0
+    },
+    {
+      "id": "ent-2",
+      "documentId": "doc-2",
+      "userId": "u-trainee-1",
+      "downloadsUsed": 1
+    }
+  ],
+  "downloadEvents": [],
+  "notifications": [
+    {
+      "id": "not-1",
+      "userId": "u-trainee-1",
+      "type": "LOGBOOK_STATUS",
+      "title": "Entry Correction Requested",
+      "body": "Weekly entry for 2026-06-02 requires correction. Officer comments: 'Please describe attenuation reading...'",
+      "isRead": false,
+      "relatedEntityType": "LOGBOOK_ENTRY",
+      "relatedEntityId": "le-4",
+      "createdAt": "2026-06-10T10:18:18.399Z"
+    },
+    {
+      "id": "not-2",
+      "userId": "u-trainee-1",
+      "type": "DOCUMENT",
+      "title": "New Attachment Policy Document Uploaded",
+      "body": "Dr. James Kamau uploaded 'KNPSS Attachment Insurance Form'",
+      "isRead": true,
+      "relatedEntityType": "DOCUMENT",
+      "relatedEntityId": "doc-1",
+      "createdAt": "2026-06-09T12:18:18.399Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "al-igfmv50vk",
+      "userId": "u-5p7gsqwnx",
+      "action": "USER_SIGNUP",
+      "entityType": "USER",
+      "entityId": "u-5p7gsqwnx",
+      "newValues": "{\"id\":\"u-5p7gsqwnx\",\"role\":\"TRAINEE\",\"fullName\":\"Joseph Njiraini Kuria\",\"email\":\"joeqush@gmail.com\",\"passwordHash\":\"2735e8aa736639410aa7672406fe2f43eab44cfb73e08c7eccc4abaa89cc1ff2\",\"phone\":\"+254708534202\",\"profilePhotoUrl\":\"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80\",\"isActive\":true,\"isApprovedForLogin\":true,\"lastLoginAt\":\"2026-06-11T09:58:43.488Z\",\"createdAt\":\"2026-06-11T09:58:43.488Z\",\"updatedAt\":\"2026-06-11T09:58:43.488Z\"}",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T09:58:43.489Z"
+    },
+    {
+      "id": "al-0ellusmr1",
+      "userId": "u-oxl6cte4k",
+      "action": "USER_MODIFICATION",
+      "entityType": "USER",
+      "entityId": "u-oxl6cte4k",
+      "oldValues": "{\"id\":\"u-oxl6cte4k\",\"role\":\"TRAINEE\",\"fullName\":\"Joseph Njiraini Kuria\",\"email\":\"joenjiraini008@gmail.com\",\"phone\":\"+254708534202\",\"profilePhotoUrl\":\"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80\",\"isActive\":true,\"isApprovedForLogin\":false,\"lastLoginAt\":\"2026-06-11T09:12:52.636Z\",\"createdAt\":\"2026-06-11T09:12:52.636Z\",\"updatedAt\":\"2026-06-11T09:12:52.636Z\"}",
+      "newValues": "{\"id\":\"u-oxl6cte4k\",\"role\":\"TRAINEE\",\"fullName\":\"Joseph Njiraini Kuria\",\"email\":\"joenjiraini008@gmail.com\",\"phone\":\"+254708534202\",\"profilePhotoUrl\":\"blob:https://musical-space-tribble-6v9wrqxgpjfxwvx-3000.app.github.dev/7b48e63e-d584-43d7-8159-a0e7197a3ba6\",\"isActive\":true,\"isApprovedForLogin\":false,\"lastLoginAt\":\"2026-06-11T09:12:52.636Z\",\"createdAt\":\"2026-06-11T09:12:52.636Z\",\"updatedAt\":\"2026-06-11T09:13:19.534Z\"}",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T09:13:19.534Z"
+    },
+    {
+      "id": "al-qi8ndzx3w",
+      "userId": "u-oxl6cte4k",
+      "action": "USER_SIGNUP",
+      "entityType": "USER",
+      "entityId": "u-oxl6cte4k",
+      "newValues": "{\"id\":\"u-oxl6cte4k\",\"role\":\"TRAINEE\",\"fullName\":\"Joseph Njiraini Kuria\",\"email\":\"joenjiraini008@gmail.com\",\"phone\":\"+254708534202\",\"profilePhotoUrl\":\"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80\",\"isActive\":true,\"isApprovedForLogin\":false,\"lastLoginAt\":\"2026-06-11T09:12:52.636Z\",\"createdAt\":\"2026-06-11T09:12:52.636Z\",\"updatedAt\":\"2026-06-11T09:12:52.636Z\"}",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T09:12:52.636Z"
+    },
+    {
+      "id": "al-799zfke5l",
+      "userId": "u-admin-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-admin-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T08:27:16.986Z"
+    },
+    {
+      "id": "al-j42s8ze1v",
+      "userId": "u-officer-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-officer-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T08:05:24.048Z"
+    },
+    {
+      "id": "al-vu9uwdct9",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T08:05:13.128Z"
+    },
+    {
+      "id": "al-eegvje6kv",
+      "userId": "u-officer-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-officer-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:39:10.544Z"
+    },
+    {
+      "id": "al-3esnqtlli",
+      "userId": "u-supervisor-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-supervisor-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:38:59.818Z"
+    },
+    {
+      "id": "al-nuaodcpo5",
+      "userId": "u-admin-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-admin-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:38:44.857Z"
+    },
+    {
+      "id": "al-y74reju2r",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:56.635Z"
+    },
+    {
+      "id": "al-w34tywfca",
+      "userId": "u-supervisor-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-supervisor-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:41.779Z"
+    },
+    {
+      "id": "al-2dbvn0xta",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:38.797Z"
+    },
+    {
+      "id": "al-c4qy9ll1x",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:38.618Z"
+    },
+    {
+      "id": "al-nlpc58n3p",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:34.813Z"
+    },
+    {
+      "id": "al-pde3njnds",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:33.725Z"
+    },
+    {
+      "id": "al-u5efofbo7",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:33.567Z"
+    },
+    {
+      "id": "al-qz89hp1u0",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:33.155Z"
+    },
+    {
+      "id": "al-p3mw3ub4f",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:31.397Z"
+    },
+    {
+      "id": "al-kkvj0cxf1",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:37:30.991Z"
+    },
+    {
+      "id": "al-fv2kil30e",
+      "userId": "u-admin-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-admin-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-11T07:36:58.026Z"
+    },
+    {
+      "id": "al-5tj9ug7e9",
+      "userId": "u-trainee-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-10T12:32:50.874Z"
+    },
+    {
+      "id": "al-9f6xfzeef",
+      "userId": "u-admin-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-admin-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-10T12:32:40.696Z"
+    },
+    {
+      "id": "al-ovm0r8r6x",
+      "userId": "u-admin-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-admin-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-10T12:32:34.538Z"
+    },
+    {
+      "id": "al-j3auxr39b",
+      "userId": "u-admin-1",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "u-admin-1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-06-10T12:32:27.006Z"
+    },
+    {
+      "id": "al-1",
+      "userId": "u-admin-1",
+      "action": "USER_IMPORT",
+      "entityType": "USER",
+      "entityId": "u-trainee-1",
+      "metadata": "Seeded trainee Joseph Kurian to DICT cohort",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-11T12:18:18.399Z"
+    }
+  ],
+  "smsLogs": [],
+  "attendanceRecords": [
+    {
+      "id": "att-1",
+      "placementId": "pl-1",
+      "traineeId": "tp-1",
+      "date": "2026-06-01",
+      "dayOfWeek": "Monday",
+      "status": "Present",
+      "markedBy": "John Mwangi",
+      "createdAt": "2026-06-01T16:00:00.000Z",
+      "updatedAt": "2026-06-01T16:00:00.000Z"
+    },
+    {
+      "id": "att-2",
+      "placementId": "pl-1",
+      "traineeId": "tp-1",
+      "date": "2026-06-02",
+      "dayOfWeek": "Tuesday",
+      "status": "Present",
+      "markedBy": "John Mwangi",
+      "createdAt": "2026-06-02T16:00:00.000Z",
+      "updatedAt": "2026-06-02T16:00:00.000Z"
+    },
+    {
+      "id": "att-3",
+      "placementId": "pl-1",
+      "traineeId": "tp-1",
+      "date": "2026-06-03",
+      "dayOfWeek": "Wednesday",
+      "status": "Present",
+      "markedBy": "John Mwangi",
+      "createdAt": "2026-06-03T16:00:00.000Z",
+      "updatedAt": "2026-06-03T16:00:00.000Z"
+    },
+    {
+      "id": "att-4",
+      "placementId": "pl-1",
+      "traineeId": "tp-1",
+      "date": "2026-06-04",
+      "dayOfWeek": "Thursday",
+      "status": "Half-Day",
+      "markedBy": "John Mwangi",
+      "createdAt": "2026-06-04T16:00:00.000Z",
+      "updatedAt": "2026-06-04T16:00:00.000Z"
+    },
+    {
+      "id": "att-5",
+      "placementId": "pl-1",
+      "traineeId": "tp-1",
+      "date": "2026-06-05",
+      "dayOfWeek": "Friday",
+      "status": "Present",
+      "markedBy": "John Mwangi",
+      "createdAt": "2026-06-05T16:00:00.000Z",
+      "updatedAt": "2026-06-05T16:00:00.000Z"
+    },
+    {
+      "id": "att-6",
+      "placementId": "pl-1",
+      "traineeId": "tp-1",
+      "date": "2026-06-08",
+      "dayOfWeek": "Monday",
+      "status": "Present",
+      "markedBy": "John Mwangi",
+      "createdAt": "2026-06-08T16:00:00.000Z",
+      "updatedAt": "2026-06-08T16:00:00.000Z"
+    },
+    {
+      "id": "att-7",
+      "placementId": "pl-1",
+      "traineeId": "tp-1",
+      "date": "2026-06-09",
+      "dayOfWeek": "Tuesday",
+      "status": "Present",
+      "markedBy": "John Mwangi",
+      "createdAt": "2026-06-09T10:00:00.000Z",
+      "updatedAt": "2026-06-09T10:00:00.000Z"
+    }
+  ],
+  "systemSettings": {
+    "institutionName": "Kenya National Polytechnic & Vocational Sciences",
+    "attachmentDurationWeeks": 12,
+    "lateWindowHours": 48,
+    "smsApiKey": "at_key_8f97b001a2f3",
+    "smsUsername": "knpss_attachment",
+    "smsSenderId": "KNPSS_LINK",
+    "feeCollectionEnabled": true,
+    "feeAmount": 1500,
+    "force2FA": false
+  }
+}

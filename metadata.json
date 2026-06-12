@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Remix: Remix: KNPSS Link",
+  "description": "Industrial Attachment Management \u0026 Assessment System for TVET/vocational institutions.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
